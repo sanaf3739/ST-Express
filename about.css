@@ -154,6 +154,23 @@
   line-height: 1.5rem;
   text-transform: none;
 }
+
+@media screen and (max-width: 1150px) {
+  .fcontainer {
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .fcol2 {
+    max-width: 100%;
+    margin: 0 15px;
+  }
+  .frow1 img {
+    width: 100%;
+    height: auto;
+  }
+}
 /*----about end----*/
 
 /*----Footer start----*/
